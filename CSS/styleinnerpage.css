@@ -1,0 +1,356 @@
+
+header{
+	width: 100%;
+	height: 48px;
+
+}
+
+.page{
+	width: 1280px;
+	margin: 0 auto;
+	border: 1px solid #DADADA;
+	
+}
+.container-wide {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.menu-icon{
+	float:left;
+	width: 16px;
+	margin: -7px 0 0 -15px;
+	
+}
+
+.menu-icon:hover{
+	float:left;
+	width: 16px;
+	margin: -7px 0 0 -15px;
+	cursor: pointer;
+	transition: 1s;
+}
+.sections-button{
+	border-radius: 2px;
+	background-color: #fff;
+	border: 0.5px solid #DADADA;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px 10px 10px 20px;
+	width: 6%;
+	float: left;
+	height: 12px;
+	text-align: center;
+	margin:	10px 0 0 -8px;
+}
+
+.home-button {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	float: left;
+	margin: 15px 0 0 20px;
+}
+
+.home{
+	float: left;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.tlogo {
+	width: 16px;
+	margin-right: 10px;
+	float: left;
+	cursor: pointer;
+}
+
+.search-icon{
+	float: left;
+	margin: 12px 12px 20px 20px;
+	cursor: pointer;
+}
+.search {
+	float: left;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 19px;
+	cursor: pointer;
+}
+
+
+img#logo{
+	box-sizing: border-box;
+	height: 26px;
+	margin-left: 240px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+
+
+.top-strip-button-subscribenow{
+	border-radius: 2px;
+	background-color: #6388a4;
+	border: 0.5px solid #456177;
+	color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px;
+	margin: 5px 5px 0 5px;
+	width: 8%;
+	float: right;
+	height: 12px;
+	text-align: center;
+}
+
+
+.top-strip-button-subscribenow:hover{
+	border-radius: 2px;
+	background-color: #416B8B;
+	transition: 0.5s;
+	border: 0.5px solid #456177;
+	color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px;
+	margin: 5px 5px 0 5px;
+	width: 8%;
+	float: right;
+	height: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.top-strip-button-login{ 
+	border-radius: 2px;
+	border: 0.5px solid #456177;
+	background-color: #6388a4;
+	color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px;
+	margin: 5px 20px 0 5px;
+	width: 4%;
+	float: right;
+	height: 12px;
+	text-align: center;
+	
+}
+
+.top-strip-button-login:hover{ 
+	border-radius: 2px;
+	border: 0.5px solid #456177;
+	background-color: #416B8B;
+	transition: 0.5s;
+	color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px;
+	margin: 5px 20px 0 5px;
+	width: 4%;
+	float: right;
+	height: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.settings-icon {
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	color: #555555;
+
+}
+
+.top{
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	margin: 40px 0 20px 0;
+
+}
+
+.top h1{
+	font-family: Georgia, "serif";
+	font-weight: 600;
+	font-size: 3em;
+	float: left;
+	
+}
+
+nav{
+	float: left;
+	border-top: 1px solid #DADADA;
+	border-bottom: 2px solid #000;
+	width: 100%;
+}
+nav ul li{
+	float:left;
+	font-family:  Arial, "sans-serif";
+	font-size: 0.6em;
+	font-weight: 300;
+	padding-right: 5px;
+	display: inline;
+	margin: 10px 5px 10px 0;
+	text-transform: uppercase;
+	border-right: 1px solid #DADADA;
+		
+	
+}
+nav ul li:hover{
+	float: left;
+	padding-right: 5px;
+	margin:  10px 5px 10px 0;
+	display: inline;
+	transition: 1s;
+	text-decoration: underline;
+	text-transform: uppercase;
+	
+}
+.main-section1{
+	float: left;
+	width: 100%;
+}
+.main-article{
+	width: 60%;
+	float: left;
+	border-right: 1px solid #DADADA;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.main-article img{
+	width: 100%;
+	margin: -7px 0 10px 0;
+}
+
+h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2em;
+	float: left;
+	line-height: 125%;
+	
+}
+
+h1:hover{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	float: left;
+	line-height: 125%;
+	text-decoration: underline;
+}
+ p{
+	float: left;
+	line-height: 125%;
+	margin-top: 10px;
+}
+
+.article-credit{
+    color: #999999;
+	font-family: Arial, "sans-serif";
+	font-size: 0.6em;
+	clear: left;
+	float: left;
+	margin-top: 10px;
+}
+
+.side-bar{
+	width: 40%;
+	float: left;
+	margin-top: 15px;
+}
+
+.column1{
+	width: 40%;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.column1 img{
+	width: 100%;
+}
+.section1{
+	width: 100%;
+	float: left;
+}
+
+.section1 p{
+	width: 100%;
+	float: left;
+	
+}
+
+.section2{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+.column2{
+	width: 50%;
+	float: right;
+	margin: 10px 0 20px 20px;
+	display: inline;
+	border-left: 1px solid #DADADA;
+	padding-left: 10px;
+}
+
+.section1 img{ 
+	float: right;
+	display: inline;
+	position: relative;
+	right: 40px;
+	
+	
+}
+
+.section2 img{ 
+	float: right;
+	display: inline;
+	position: relative;
+	right: 40px;
+}
+
+.bottom-section {
+	float: left;
+	width: 20%;
+	
+}
+
+.bottom-section p{
+	float: left;
+	margin: 20px 20px 0 0;
+}
+
+
+.main-section2 {
+	border-top: 1px solid #DADADA;
+	float: left;
+	padding: 20px 0 0 0;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.image-credit{
+	font-size: 0.3em;
+	color: #DADADA;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top: 5px;
+	float:right;
+}
